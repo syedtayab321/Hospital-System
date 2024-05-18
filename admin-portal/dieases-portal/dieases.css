@@ -1,0 +1,15 @@
+
+.main-dashboard form 
+{
+    background-color: #0095ff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-dashboard form select
+{
+    padding: 7px;
+    border-radius: 8px;
+}

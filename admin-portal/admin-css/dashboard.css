@@ -1,0 +1,51 @@
+*{margin: 0%;padding: 0%;}.main-dashboard{ background-color:#2a85a5;background-position: center;background-size: cover;width: 100%;height: 100vh;background-repeat: no-repeat;}
+/*section 2 starts here*/
+.section-2 .box{height: 220px;width: 260px;border:2px solid black;}.section-2 .box1,.box2{display: flex;flex-wrap: wrap;
+    justify-content: center;}.section-2 .box{margin: 40px 60px 32px 0px;text-align: center;background-color:white;backdrop-filter: blur(100px);
+border-radius: 10px;}/*section2 starts here*/.section-2 img{    margin-top: 30px;    width: 120px;    height: 90px;}
+.section-2 .navlinks ul{    display: flex;  flex-direction: column;}.section-2 .navlinks ul li{    list-style: none;
+    margin: 15px 40px 5px 5px;}.section-2 .navlinks ul li a{text-decoration: none;color: rgb(243, 239, 239);
+background-color:#2a85a5;border-radius: 7px;padding: 6px;}.section-2 .navlinks ul li a:hover{   background-color: rgb(150, 5, 5);  }@media(max-width:960px){    .main-dashboard{
+    background-image: url(../../images/marcelo-leal-6pcGTJDuf6M-unsplash.jpg);background-position: center;background-size: cover;width: 100%;height: auto;background-repeat: no-repeat;}}
+
+   .login-section 
+   {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       text-align: center;
+   }
+   .login-section .patient
+   {
+       width: 300px;
+       height: 200px;
+       margin: 50px;
+   }
+   .login-section .patient .p2 
+   {
+    text-align: center;
+    padding: 17px;
+    background-color: aliceblue;
+    position: relative;
+    top: -80px;
+    left: 20px;
+    width: 250px;
+    border-radius: 10px;
+   }
+   .login-section .patient .p2 a
+   {
+    text-decoration: none;
+       color: rgb(243, 239, 239);
+       background-color:#2a85a5;
+       border-radius: 7px;
+       padding: 6px;
+   }
+   .login-section .patient .p2 h4
+   {
+    margin-bottom: 20px;
+   }
+   .login-section .patient .p2 a:hover
+   {
+        background-color: rgb(110, 3, 3);
+        cursor: pointer;
+   }

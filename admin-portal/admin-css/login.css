@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times;
+}
+.main
+{
+    background-color: rgba(227, 227, 233, 0.959);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form .heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .login-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    box-shadow: 3px 4px 14px black;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.main .login-form .form form
+{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .login-form .form 
+{
+  width: 100%;
+}
+.main .login-form .form form input
+{
+    height: 45px;
+    width: 70%;
+    margin:7px 0px 15px 100px;
+    font-size: large;
+}
+.main .login-form .form form button
+{
+    background-color: rgb(3, 3, 114);
+    color: aliceblue;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin:7px 0px 15px 100px;
+    width: 70%;
+}
+.main .login-form .form form button:hover
+{
+    background-color: rgb(3, 67, 151);
+    color: rgb(253, 252, 252);
+    
+}
+.main .login-form .textt 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+@media (max-width:1250px)
+{
+    .main .login-form
+    {
+        width: 80%;
+    }
+    .main .login-form .form form input
+    {
+        margin: 7px 0px 15px 65px;
+    }
+    .main .login-form .form form button
+    {
+        margin: 7px 0px 15px 65px;
+    }
+}
+@media (max-width:565px)
+{
+ .main .login-form
+ {
+        width: 90%;
+ }
+ .main .login-form .form form input
+ {
+        margin: 7px 0px 15px 10px;
+        width: 90%;
+ }
+.main .login-form .form form button
+{
+    margin: 7px 0px 15px 10px;
+    width: 90%;
+}
+}

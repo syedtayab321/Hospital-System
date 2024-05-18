@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times;
+}
+.main
+{
+    background-color: rgba(227, 227, 233, 0.959);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .login-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    box-shadow: 3px 4px 14px black;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.main .login-form .form form
+{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .login-form .form 
+{
+  width: 100%;
+}
+.main .login-form .form form label
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main .login-form .form form input,select
+{
+    height: 45px;
+    width: 70%;
+    margin:7px 0px 15px 100px;
+    font-size: large;
+}
+.main .login-form .form form input[type=submit]
+{
+    background-color: rgb(3, 3, 114);
+    color: aliceblue;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 71%;
+}
+.main .login-form .form form input[type=submit]:hover
+{
+    background-color: rgb(3, 67, 151);
+    color: rgb(253, 252, 252);
+    
+}
+.main .login-form .textt 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.main .login-form .heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .red
+{
+    border: 3px solid red;
+}
+@media (max-width:1100px)
+{
+    .main .login-form
+    {
+        width: 80%;
+    }
+    .main .login-form .form form input,select
+    {
+        margin: 7px 0px 15px 65px;
+    }
+}
+@media (max-width:565px)
+{
+    .main .login-form
+    {
+        width: 90%;
+    }
+    .main .login-form .form form input,select
+    {
+        margin: 7px 0px 15px 10px;
+        width: 90%;
+    }
+.main .login-form .form form input[type=submit]
+{
+    width: 90%;
+}
+}
+.main .login-form .form form p
+{
+    color: red;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.main .login-form .form form .checkbb
+{
+    display: flex;
+    flex-direction: column;
+}
